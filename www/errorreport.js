@@ -72,7 +72,7 @@ window.onerror = function(msg, url, lineNumber) {
         function reportError() {
             if (!errorReported) {
                 errorReported = true;
-                var reportUrl = 'http://prototype.moodle.net/mobile/feedback/mmfeedback.php?message=' + encodeURIComponent(msg) +
+                var reportUrl = 'http://www.jaihindiasacademy.com/portal/mobile/feedback/mmfeedback.php?message=' + encodeURIComponent(msg) +
                                 '&file=' + encodeURIComponent(url) + '&line=' + encodeURIComponent(lineNumber) + '&appv=' +
                                 encodeURIComponent(appVersion) + '&bg=' + (reportInBackground ? 1 : 0);
 
